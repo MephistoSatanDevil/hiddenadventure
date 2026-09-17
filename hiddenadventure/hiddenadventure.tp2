@@ -42,7 +42,6 @@ ACTION_IF !FILE_EXISTS ~hiddenadventure/reinstall.mrk~ BEGIN
 	LAF HANDLE_CHARSETS
 		INT_VAR
 			infer_charsets = 1
-			from_utf8 = 1
 		STR_VAR
 			tra_path = EVAL ~hiddenadventure/tra/autotra~
 			noconvert_array = tra#noconvert
